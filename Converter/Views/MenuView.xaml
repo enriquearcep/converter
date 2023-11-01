@@ -107,7 +107,7 @@
         </Grid>
         <!--#endregion-->
 
-        <!--#region Lenght -->
+        <!--#region Length -->
         <Grid
             BackgroundColor="{StaticResource SecondaryAppColor}"
             Grid.Column="2"
@@ -137,7 +137,7 @@
             <Label
                 Grid.Row="1"
                 HorizontalTextAlignment="Center"
-                Text="Lenght"
+                Text="Length"
                 TextColor="{StaticResource TextColor}"
                 VerticalTextAlignment="Center"
                 />

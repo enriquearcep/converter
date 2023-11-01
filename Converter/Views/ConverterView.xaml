@@ -36,7 +36,10 @@
                     />
 
                 <Picker
+                    HorizontalOptions="Center"
                     HorizontalTextAlignment="Center"
+                    ItemsSource="{Binding FromMeasures}"
+                    SelectedItem="{Binding CurrentFromMeasure}"
                     TextColor="{StaticResource TextColor}"
                     />
 
@@ -62,7 +65,10 @@
                     />
 
                 <Picker
+                    HorizontalOptions="Center"
                     HorizontalTextAlignment="Center"
+                    ItemsSource="{Binding ToMeasures}"
+                    SelectedItem="{Binding CurrentToMeasure}"
                     TextColor="{StaticResource TextColor}"
                     />
 
