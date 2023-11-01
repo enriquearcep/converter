@@ -31,7 +31,9 @@
                 <Entry
                     FontSize="100"
                     HorizontalTextAlignment="Center"
-                    Text="100"
+                    Keyboard="Numeric"
+                    ReturnCommand="{Binding FromValueChangedCommand}"
+                    Text="{Binding FromValue}"
                     TextColor="{StaticResource TextColor}"
                     />
 
@@ -39,6 +41,7 @@
                     HorizontalOptions="Center"
                     HorizontalTextAlignment="Center"
                     ItemsSource="{Binding FromMeasures}"
+                    SelectedIndexChanged="Picker_SelectedIndexChanged"
                     SelectedItem="{Binding CurrentFromMeasure}"
                     TextColor="{StaticResource TextColor}"
                     />
@@ -60,7 +63,7 @@
                 <Label
                     FontSize="100"
                     HorizontalTextAlignment="Center"
-                    Text="100"
+                    Text="{Binding Result, StringFormat='{0:0.##}'}"
                     TextColor="{StaticResource TextColor}"
                     />
 
@@ -68,6 +71,7 @@
                     HorizontalOptions="Center"
                     HorizontalTextAlignment="Center"
                     ItemsSource="{Binding ToMeasures}"
+                    SelectedIndexChanged="Picker_SelectedIndexChanged"
                     SelectedItem="{Binding CurrentToMeasure}"
                     TextColor="{StaticResource TextColor}"
                     />
