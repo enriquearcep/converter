@@ -8,7 +8,7 @@ namespace Converter
         {
             InitializeComponent();
 
-            MainPage = new MenuView();
+            MainPage = new ConverterView();
         }
     }
 }
