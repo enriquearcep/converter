@@ -40,6 +40,15 @@
             RowDefinitions="0.7*, 0.3*"
             >
 
+            <Grid.GestureRecognizers>
+                
+                <TapGestureRecognizer
+                    Command="{Binding NavigateToConverterCommand}"
+                    CommandParameter="Information"
+                    />
+                
+            </Grid.GestureRecognizers>
+
             <Image
                 HeightRequest="100"
                 WidthRequest="100"
@@ -61,7 +70,7 @@
             <Label
                 Grid.Row="1"
                 HorizontalTextAlignment="Center"
-                Text="Information"
+                Text="Información"
                 TextColor="{StaticResource TextColor}"
                 VerticalTextAlignment="Center"
                 />
@@ -77,6 +86,15 @@
             Padding="15"
             RowDefinitions="0.7*, 0.3*"
             >
+
+            <Grid.GestureRecognizers>
+                
+                <TapGestureRecognizer
+                    Command="{Binding NavigateToConverterCommand}"
+                    CommandParameter="Volume"
+                    />
+                
+            </Grid.GestureRecognizers>
 
             <Image
                 HeightRequest="100"
@@ -116,6 +134,15 @@
             RowDefinitions="0.7*, 0.3*"
             >
 
+            <Grid.GestureRecognizers>
+
+                <TapGestureRecognizer
+                    Command="{Binding NavigateToConverterCommand}"
+                    CommandParameter="Length"
+                    />
+
+            </Grid.GestureRecognizers>
+
             <Image
                 HeightRequest="100"
                 WidthRequest="100"
@@ -137,7 +164,7 @@
             <Label
                 Grid.Row="1"
                 HorizontalTextAlignment="Center"
-                Text="Length"
+                Text="Longitud"
                 TextColor="{StaticResource TextColor}"
                 VerticalTextAlignment="Center"
                 />
@@ -152,6 +179,15 @@
             Padding="15"
             RowDefinitions="0.7*, 0.3*"
             >
+
+            <Grid.GestureRecognizers>
+
+                <TapGestureRecognizer
+                    Command="{Binding NavigateToConverterCommand}"
+                    CommandParameter="Mass"
+                    />
+
+            </Grid.GestureRecognizers>
 
             <Image
                 HeightRequest="100"
@@ -174,7 +210,7 @@
             <Label
                 Grid.Row="1"
                 HorizontalTextAlignment="Center"
-                Text="Mass"
+                Text="Masa"
                 TextColor="{StaticResource TextColor}"
                 VerticalTextAlignment="Center"
                 />
@@ -190,6 +226,15 @@
             Padding="15"
             RowDefinitions="0.7*, 0.3*"
             >
+
+            <Grid.GestureRecognizers>
+
+                <TapGestureRecognizer
+                    Command="{Binding NavigateToConverterCommand}"
+                    CommandParameter="Temperature"
+                    />
+
+            </Grid.GestureRecognizers>
 
             <Image
                 HeightRequest="100"
@@ -212,7 +257,7 @@
             <Label
                 Grid.Row="1"
                 HorizontalTextAlignment="Center"
-                Text="Temperature"
+                Text="Temperatura"
                 TextColor="{StaticResource TextColor}"
                 VerticalTextAlignment="Center"
                 />
@@ -229,6 +274,15 @@
             RowDefinitions="0.7*, 0.3*"
             >
 
+            <Grid.GestureRecognizers>
+
+                <TapGestureRecognizer
+                    Command="{Binding NavigateToConverterCommand}"
+                    CommandParameter="Energy"
+                    />
+
+            </Grid.GestureRecognizers>
+
             <Image
                 HeightRequest="100"
                 WidthRequest="100"
@@ -237,11 +291,11 @@
                 <Image.Source>
 
                     <FontImageSource
-                Color="{StaticResource TextColor}"
-                FontFamily="Icons"
-                Glyph="&#xE806;"
-                Size="100"
-                />
+                        Color="{StaticResource TextColor}"
+                        FontFamily="Icons"
+                        Glyph="&#xE806;"
+                        Size="100"
+                        />
 
                 </Image.Source>
 
@@ -250,7 +304,7 @@
             <Label
                 Grid.Row="1"
                 HorizontalTextAlignment="Center"
-                Text="Energy"
+                Text="Energía"
                 TextColor="{StaticResource TextColor}"
                 VerticalTextAlignment="Center"
                 />
@@ -265,6 +319,15 @@
             Padding="15"
             RowDefinitions="0.7*, 0.3*"
             >
+
+            <Grid.GestureRecognizers>
+
+                <TapGestureRecognizer
+                    Command="{Binding NavigateToConverterCommand}"
+                    CommandParameter="Area"
+                    />
+
+            </Grid.GestureRecognizers>
 
             <Image
                 HeightRequest="100"
@@ -287,7 +350,7 @@
             <Label
                 Grid.Row="1"
                 HorizontalTextAlignment="Center"
-                Text="Area"
+                Text="Área"
                 TextColor="{StaticResource TextColor}"
                 VerticalTextAlignment="Center"
                 />
@@ -303,6 +366,15 @@
             Padding="15"
             RowDefinitions="0.7*, 0.3*"
             >
+
+            <Grid.GestureRecognizers>
+
+                <TapGestureRecognizer
+                    Command="{Binding NavigateToConverterCommand}"
+                    CommandParameter="Speed"
+                    />
+
+            </Grid.GestureRecognizers>
 
             <Image
                 HeightRequest="100"
@@ -325,7 +397,7 @@
             <Label
                 Grid.Row="1"
                 HorizontalTextAlignment="Center"
-                Text="Speed"
+                Text="Velocidad"
                 TextColor="{StaticResource TextColor}"
                 VerticalTextAlignment="Center"
                 />
@@ -341,6 +413,15 @@
             Padding="15"
             RowDefinitions="0.7*, 0.3*"
             >
+
+            <Grid.GestureRecognizers>
+
+                <TapGestureRecognizer
+                    Command="{Binding NavigateToConverterCommand}"
+                    CommandParameter="Duration"
+                    />
+
+            </Grid.GestureRecognizers>
 
             <Image
                 HeightRequest="100"
@@ -363,7 +444,7 @@
             <Label
                 Grid.Row="1"
                 HorizontalTextAlignment="Center"
-                Text="Duration"
+                Text="Duración"
                 TextColor="{StaticResource TextColor}"
                 VerticalTextAlignment="Center"
                 />

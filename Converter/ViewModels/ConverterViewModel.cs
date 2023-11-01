@@ -50,14 +50,14 @@ namespace Converter.ViewModels
         #endregion
 
         #region Constructors
-        public ConverterViewModel()
+        public ConverterViewModel(string quantityname)
         {
-            QuantityName = "Length";
+            QuantityName = quantityname;
             FromMeasures = LoadMeasures();
             ToMeasures = LoadMeasures();
 
-            CurrentFromMeasure = "Meter";
-            CurrentToMeasure = "Centimeter";
+            CurrentFromMeasure = FromMeasures.FirstOrDefault();
+            CurrentToMeasure = ToMeasures.FirstOrDefault();
 
             Convert();
         }
