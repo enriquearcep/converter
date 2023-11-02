@@ -4,17 +4,6 @@
              x:Class="Converter.Views.ConverterView"
              Title="ConverterView">
 
-    <ContentPage.Resources>
-
-        <Color x:Key="PrimaryAppColor">#A6A6A6</Color>
-        <Color x:Key="SecondaryAppColor">#595959</Color>
-        <Color x:Key="ThirdAppColor">#404040</Color>
-        <Color x:Key="AccentAppColor">#262626</Color>
-        <Color x:Key="AxiliarAppColor">#0D0D0D</Color>
-        <Color x:Key="TextColor">#FFF</Color>
-
-    </ContentPage.Resources>
-
     <Grid
         RowDefinitions="*, *"
         >

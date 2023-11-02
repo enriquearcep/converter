@@ -5,25 +5,6 @@
              Title="MenuView"
              NavigationPage.HasNavigationBar="False">
 
-    <ContentPage.Resources>
-
-        <Color x:Key="PrimaryAppColor">#A6A6A6</Color>
-        <Color x:Key="SecondaryAppColor">#595959</Color>
-        <Color x:Key="ThirdAppColor">#404040</Color>
-        <Color x:Key="AccentAppColor">#262626</Color>
-        <Color x:Key="AxiliarAppColor">#0D0D0D</Color>
-        <Color x:Key="TextColor">#FFF</Color>
-
-        <Style TargetType="Label">
-
-            <Setter Property="HorizontalTextAlignment" Value="Center" />
-            <Setter Property="TextColor" Value="{StaticResource TextColor}" />
-            <Setter Property="VerticalTextAlignment" Value="Center" />
-
-        </Style>
-
-    </ContentPage.Resources>
-
     <Grid
         ColumnDefinitions="*, *, *"
         RowDefinitions="0.1*, *, *, *"
