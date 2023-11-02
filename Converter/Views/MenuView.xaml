@@ -14,6 +14,14 @@
         <Color x:Key="AxiliarAppColor">#0D0D0D</Color>
         <Color x:Key="TextColor">#FFF</Color>
 
+        <Style TargetType="Label">
+
+            <Setter Property="HorizontalTextAlignment" Value="Center" />
+            <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+            <Setter Property="VerticalTextAlignment" Value="Center" />
+
+        </Style>
+
     </ContentPage.Resources>
 
     <Grid
@@ -26,10 +34,7 @@
             FontAttributes="Bold"
             FontSize="Title"
             Grid.ColumnSpan="3"
-            HorizontalTextAlignment="Center"
             Text="CONVERTER"
-            TextColor="{StaticResource TextColor}"
-            VerticalTextAlignment="Center"
             />
 
         <!--#region Information -->
@@ -69,10 +74,7 @@
 
             <Label
                 Grid.Row="1"
-                HorizontalTextAlignment="Center"
                 Text="Información"
-                TextColor="{StaticResource TextColor}"
-                VerticalTextAlignment="Center"
                 />
 
         </Grid>
@@ -116,10 +118,7 @@
 
             <Label
                 Grid.Row="1"
-                HorizontalTextAlignment="Center"
                 Text="Volumen"
-                TextColor="{StaticResource TextColor}"
-                VerticalTextAlignment="Center"
                 />
 
         </Grid>
@@ -163,10 +162,7 @@
 
             <Label
                 Grid.Row="1"
-                HorizontalTextAlignment="Center"
                 Text="Longitud"
-                TextColor="{StaticResource TextColor}"
-                VerticalTextAlignment="Center"
                 />
 
         </Grid>
@@ -209,10 +205,7 @@
 
             <Label
                 Grid.Row="1"
-                HorizontalTextAlignment="Center"
                 Text="Masa"
-                TextColor="{StaticResource TextColor}"
-                VerticalTextAlignment="Center"
                 />
 
         </Grid>
@@ -256,10 +249,7 @@
 
             <Label
                 Grid.Row="1"
-                HorizontalTextAlignment="Center"
                 Text="Temperatura"
-                TextColor="{StaticResource TextColor}"
-                VerticalTextAlignment="Center"
                 />
 
         </Grid>
@@ -303,10 +293,7 @@
 
             <Label
                 Grid.Row="1"
-                HorizontalTextAlignment="Center"
                 Text="Energía"
-                TextColor="{StaticResource TextColor}"
-                VerticalTextAlignment="Center"
                 />
 
         </Grid>
@@ -349,10 +336,7 @@
 
             <Label
                 Grid.Row="1"
-                HorizontalTextAlignment="Center"
                 Text="Área"
-                TextColor="{StaticResource TextColor}"
-                VerticalTextAlignment="Center"
                 />
 
         </Grid>
@@ -396,10 +380,7 @@
 
             <Label
                 Grid.Row="1"
-                HorizontalTextAlignment="Center"
                 Text="Velocidad"
-                TextColor="{StaticResource TextColor}"
-                VerticalTextAlignment="Center"
                 />
 
         </Grid>
@@ -443,10 +424,7 @@
 
             <Label
                 Grid.Row="1"
-                HorizontalTextAlignment="Center"
                 Text="Duración"
-                TextColor="{StaticResource TextColor}"
-                VerticalTextAlignment="Center"
                 />
 
         </Grid>
