@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Converter.Views.MenuView"
              Title="MenuView"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource Primary}"
+             >
 
     <Grid
         ColumnDefinitions="*, *, *"
@@ -11,7 +13,7 @@
         >
 
         <Label
-            BackgroundColor="{StaticResource AccentAppColor}"
+            BackgroundColor="{StaticResource Tertiary}"
             FontAttributes="Bold"
             FontSize="Title"
             Grid.ColumnSpan="3"
@@ -20,7 +22,7 @@
 
         <!--#region Information -->
         <Grid
-            BackgroundColor="{StaticResource SecondaryAppColor}"
+            BackgroundColor="{StaticResource Secondary}"
             Grid.Row="1"
             Padding="15"
             RowDefinitions="0.7*, 0.3*"
@@ -63,7 +65,7 @@
 
         <!--#region Volumen -->
         <Grid
-            BackgroundColor="{StaticResource ThirdAppColor}"
+            BackgroundColor="{StaticResource Tertiary}"
             Grid.Column="1"
             Grid.Row="1"
             Padding="15"
@@ -107,7 +109,7 @@
 
         <!--#region Length -->
         <Grid
-            BackgroundColor="{StaticResource SecondaryAppColor}"
+            BackgroundColor="{StaticResource Secondary}"
             Grid.Column="2"
             Grid.Row="1"
             Padding="15"
@@ -151,7 +153,7 @@
 
         <!--#region Mass -->
         <Grid
-            BackgroundColor="{StaticResource ThirdAppColor}"
+            BackgroundColor="{StaticResource Tertiary}"
             Grid.Row="2"
             Padding="15"
             RowDefinitions="0.7*, 0.3*"
@@ -194,7 +196,7 @@
 
         <!--#region Temperature -->
         <Grid
-            BackgroundColor="{StaticResource SecondaryAppColor}"
+            BackgroundColor="{StaticResource Secondary}"
             Grid.Column="1"
             Grid.Row="2"
             Padding="15"
@@ -238,7 +240,7 @@
 
         <!--#region Energy -->
         <Grid
-            BackgroundColor="{StaticResource ThirdAppColor}"
+            BackgroundColor="{StaticResource Tertiary}"
             Grid.Column="2"
             Grid.Row="2"
             Padding="15"
@@ -282,7 +284,7 @@
 
         <!--#region Area -->
         <Grid
-            BackgroundColor="{StaticResource SecondaryAppColor}"
+            BackgroundColor="{StaticResource Secondary}"
             Grid.Row="3"
             Padding="15"
             RowDefinitions="0.7*, 0.3*"
@@ -325,7 +327,7 @@
 
         <!--#region Speed -->
         <Grid
-            BackgroundColor="{StaticResource ThirdAppColor}"
+            BackgroundColor="{StaticResource Tertiary}"
             Grid.Column="1"
             Grid.Row="3"
             Padding="15"
@@ -369,7 +371,7 @@
 
         <!--#region Duration -->
         <Grid
-            BackgroundColor="{StaticResource SecondaryAppColor}"
+            BackgroundColor="{StaticResource Secondary}"
             Grid.Column="2"
             Grid.Row="3"
             Padding="15"
